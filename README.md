@@ -77,8 +77,8 @@ Example:
 
 ```php
 $devices = [
-    ['name' => 'DISPLAY 100 & 101', 'ip' => '10.1.31.43'],
-    ['name' => 'DISPLAY 105 & 106', 'ip' => '10.1.31.44'],
+    ['name' => 'DISPLAY 100 & 101', 'ip' => 'YOUR_IP_ADDRESS'],
+    ['name' => 'DISPLAY 105 & 106', 'ip' => 'YOUR_IP_ADDRESS'],
     // ... more devices
 ];
 ```
@@ -96,7 +96,7 @@ Response format:
     "devices": [
         {
             "name": "DISPLAY 100 & 101",
-            "ip": "10.1.31.43",
+            "ip": "YOUR_IP_ADDRESS",
             "status": "UP"
         }
     ],
